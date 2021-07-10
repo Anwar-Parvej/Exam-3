@@ -1,0 +1,135 @@
+ @media all and (max-width:1400px) {
+     html{
+         font-size: 16px;
+     }
+ }
+ @media all and (max-width:1200px) {
+    html{
+        font-size: 16px;
+    }
+    .team_img {
+        width: 225px;
+        height: 225px;
+    }
+    .news_text h2 a {
+        font-size: 1.2rem;
+    }
+    .flat_icon {
+        margin-bottom: 3rem;
+    }
+ }
+ @media all and (max-width:1024px) {
+    html{
+        font-size: 15px;
+    }
+    
+ }
+ @media all and (max-width:992px) {
+    html{
+        font-size: 14px;
+    }
+    .bar_icon {
+        display: none;
+    }
+    .menu li ul {
+        left: 20%;
+    }
+    .menu li:hover ul {
+        top: 0;
+    }
+    .about_left {
+        margin-bottom: 3rem;
+    }
+    .in_in_img {
+        bottom: 0;
+        right: 0;
+    }
+    .about_section {
+        padding: 78px 0;
+        padding-bottom: 73px;
+    }
+    .about_right {
+        padding-left: 0;
+    }
+    .service_section {
+        padding: 42px 0;
+    }
+    .section_header {
+        margin-bottom: 24px;
+    }
+    .project_section {
+        padding: 42px 0;
+    }
+    .choose_us_section {
+        padding: 42px 0;
+    }
+    .team_section {
+        padding: 42px 0;
+    }
+    .team_item {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 3rem;
+    }
+    .contact_section {
+        padding: 42px 0;
+    }
+    .testimonial_section {
+        padding: 42px 0;
+    }
+    .news_text h2 a {
+        font-size: 3rem;
+    }
+    .news_text .read_more {
+        font-size: 1.4rem;
+    }
+    
+    .card_section {
+        top: 55px;
+    }
+    .main_header {
+        position: inherit;
+    }
+    .menu li a i {
+        right: 30px;
+        top: 10px;
+        transform: rotate(-90deg);
+    }
+    
+ }
+ @media all and (max-width:768px) {
+    html{
+        font-size: 14px;
+    }
+    .top_header {
+        display: none;
+    }
+    .custom-shape-divider-bottom-1625663541 svg {
+        display: none;
+    }
+    .con_bg {
+        padding: 45px 18px;
+    }
+    .c_item:nth-child(2n+1) {
+        margin-top: 0;
+    }
+    
+ }
+ @media all and (max-width:767px) {
+    .car_items::before {
+        background-color: transparent;
+    }
+ }
+ @media all and (max-width:576px) {
+    html{
+        font-size: 12px;
+    }
+    .in_in_img {
+        display: none;
+    }
+  .menu li ul li ul {
+	display: none;
+}
+ }
